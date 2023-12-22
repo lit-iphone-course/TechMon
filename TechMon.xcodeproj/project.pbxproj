@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EB01E37F2B33D7F10070E406 /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB01E37E2B33D7F10070E406 /* LobbyViewController.swift */; };
 		EB01E3812B33D7FB0070E406 /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB01E3802B33D7FB0070E406 /* BattleViewController.swift */; };
+		EB01E3832B33DADF0070E406 /* Charactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB01E3822B33DADF0070E406 /* Charactor.swift */; };
 		EB1BBCEA2B282D3100BD17C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1BBCE92B282D3100BD17C8 /* AppDelegate.swift */; };
 		EB1BBCEC2B282D3100BD17C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1BBCEB2B282D3100BD17C8 /* SceneDelegate.swift */; };
 		EB1BBCF12B282D3100BD17C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1BBCEF2B282D3100BD17C8 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		EB01E37E2B33D7F10070E406 /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
 		EB01E3802B33D7FB0070E406 /* BattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
+		EB01E3822B33DADF0070E406 /* Charactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charactor.swift; sourceTree = "<group>"; };
 		EB1BBCE62B282D3100BD17C8 /* TechMon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechMon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1BBCE92B282D3100BD17C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB1BBCEB2B282D3100BD17C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				EB1BBCEF2B282D3100BD17C8 /* Main.storyboard */,
 				EB01E37E2B33D7F10070E406 /* LobbyViewController.swift */,
 				EB01E3802B33D7FB0070E406 /* BattleViewController.swift */,
+				EB01E3822B33DADF0070E406 /* Charactor.swift */,
 				EB1BBCF22B282D3400BD17C8 /* Assets.xcassets */,
 				EB1BBCF42B282D3400BD17C8 /* LaunchScreen.storyboard */,
 				EB1BBCF72B282D3400BD17C8 /* Info.plist */,
@@ -143,6 +146,7 @@
 			files = (
 				EB01E3812B33D7FB0070E406 /* BattleViewController.swift in Sources */,
 				EB01E37F2B33D7F10070E406 /* LobbyViewController.swift in Sources */,
+				EB01E3832B33DADF0070E406 /* Charactor.swift in Sources */,
 				EB1BBCEA2B282D3100BD17C8 /* AppDelegate.swift in Sources */,
 				EB1BBCEC2B282D3100BD17C8 /* SceneDelegate.swift in Sources */,
 			);
