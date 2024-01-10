@@ -24,33 +24,12 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="cYt-Ay-AJF">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="勇者" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zhu-ic-JiJ">
-                                <rect key="frame" x="59" y="128" width="42" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="勇者" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zhu-ic-JiJ">
+                                <rect key="frame" x="60" y="259" width="40" height="20"/>
+                                <fontDescription key="fontDescription" name="MisakiGothic" family="MisakiGothic" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lv. 15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icS-DI-YA7">
-                                <rect key="frame" x="246" y="130" width="43" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stage" translatesAutoresizingMaskIntoConstraints="NO" id="Qq0-tW-Uuv">
-                                <rect key="frame" x="0.0" y="229.66666666666663" width="393" height="393"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Qq0-tW-Uuv" secondAttribute="height" multiplier="1:1" id="hJ3-a3-8ch"/>
-                                </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yusha" translatesAutoresizingMaskIntoConstraints="NO" id="gnj-zb-7Ob">
-                                <rect key="frame" x="96.666666666666686" y="286" width="200" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="dCa-F0-646"/>
-                                    <constraint firstAttribute="height" constant="200" id="lqd-on-GiM"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLn-qO-mG6">
                                 <rect key="frame" x="46.666666666666657" y="658" width="300" height="100"/>
                                 <constraints>
@@ -64,6 +43,25 @@
                                     <segue destination="mSi-VU-NfB" kind="presentation" modalPresentationStyle="fullScreen" id="oFX-Mn-ydr"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stage" translatesAutoresizingMaskIntoConstraints="NO" id="Qq0-tW-Uuv">
+                                <rect key="frame" x="0.0" y="229.66666666666663" width="393" height="393"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Qq0-tW-Uuv" secondAttribute="height" multiplier="1:1" id="hJ3-a3-8ch"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yusha" translatesAutoresizingMaskIntoConstraints="NO" id="gnj-zb-7Ob">
+                                <rect key="frame" x="96.666666666666686" y="286" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="dCa-F0-646"/>
+                                    <constraint firstAttribute="height" constant="200" id="lqd-on-GiM"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lv. 15" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icS-DI-YA7">
+                                <rect key="frame" x="273" y="259" width="60" height="20"/>
+                                <fontDescription key="fontDescription" name="MisakiGothic" family="MisakiGothic" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -77,7 +75,11 @@
                             <constraint firstItem="cYt-Ay-AJF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TTt-Vf-Yjb"/>
                             <constraint firstItem="Qq0-tW-Uuv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="W23-Ky-7x6"/>
                             <constraint firstItem="gnj-zb-7Ob" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-40" id="Xd0-7i-r51"/>
+                            <constraint firstItem="Zhu-ic-JiJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="Y5s-Zd-c6A"/>
                             <constraint firstAttribute="bottom" secondItem="cYt-Ay-AJF" secondAttribute="bottom" id="dEn-C0-muQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="icS-DI-YA7" secondAttribute="trailing" constant="60" id="juh-J6-Ld7"/>
+                            <constraint firstItem="icS-DI-YA7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="kTf-Cx-GiS"/>
+                            <constraint firstItem="Zhu-ic-JiJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="m5g-dT-5tC"/>
                             <constraint firstItem="Qq0-tW-Uuv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qSJ-a3-QeT"/>
                             <constraint firstItem="OLn-qO-mG6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wkn-aR-VCS"/>
                         </constraints>
@@ -104,7 +106,7 @@
                                     <constraint firstAttribute="width" secondItem="uuy-Kq-Olk" secondAttribute="height" multiplier="3:4" id="GQE-Jw-HuR"/>
                                 </constraints>
                             </imageView>
-                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bwv-OH-ppl">
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bwv-OH-ppl">
                                 <rect key="frame" x="223" y="72" width="150" height="120"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -115,7 +117,7 @@
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AiX-g8-Jss">
                                 <rect key="frame" x="265" y="126" width="96" height="4"/>
                             </progressView>
-                            <view alpha="0.30000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ak2-JS-Igq">
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ak2-JS-Igq">
                                 <rect key="frame" x="36" y="396" width="150" height="120"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
