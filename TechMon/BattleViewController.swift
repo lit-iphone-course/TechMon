@@ -19,8 +19,8 @@ class BattleViewController: UIViewController {
     @IBOutlet var enemyImageView: UIImageView!
     @IBOutlet var enemyHPBar: UIProgressView!
     
-    var player: Charactor!
-    var enemy: Charactor!
+    var player: Character!
+    var enemy: Character!
     var enemyAttackTimer: Timer!
     let bgmPlayer = try! AVAudioPlayer(data: NSDataAsset(name: "bgm_battle")!.data)
     let victorySEPlayer = try! AVAudioPlayer(data: NSDataAsset(name: "fanfare")!.data)
@@ -30,7 +30,7 @@ class BattleViewController: UIViewController {
         super.viewDidLoad()
         
         //プレイヤーと敵を設定
-        player = Charactor(name: "勇者", 
+        player = Character(name: "勇者",
                            imageName: "yusha",
                            currentHP: 100,
                            maxHP: 100,
@@ -40,7 +40,7 @@ class BattleViewController: UIViewController {
                            specialAttackPower: 60,
                            normalAttackSEName: "attack_normal",
                            specialAttackSEName: "attack_special")
-        enemy = Charactor(name: "ヴァンパイア",
+        enemy = Character(name: "ヴァンパイア",
                           imageName: "vampire",
                           currentHP: 300,
                           maxHP: 300,

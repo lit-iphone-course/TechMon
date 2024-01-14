@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class Charactor {
+class Character {
     
     var name: String
     var image: UIImage
